@@ -2,72 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FixrBot – AI Code Fixing Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FixrBot – Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <h1>FixrBot</h1>
+    <p>AI‑powered bug fixing for your Flutter codebase. Fast. Reliable. Hands‑off.</p>
+  </header>
 
-<header>
-  <h1>FixrBot</h1>
-  <p>AI-powered bug fixing for your Flutter codebase. Fast. Reliable. Hands-off.</p>
-</header>
+  <nav class="topnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-<nav class="topnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="about.html">About</a>
-  <a href="pricing.html">Pricing</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <section>
+    <h2>How It Works</h2>
+    <ol>
+      <li>Submit your GitHub link or project files</li>
+      <li>FixrBot scans, diagnoses, and resolves issues using AI</li>
+      <li>Receive clean, fixed code within 24–48 hours</li>
+    </ol>
+  </section>
 
-<section>
-  <h2>How It Works</h2>
-  <ol>
-    <li>You submit your GitHub link or project files</li>
-    <li>FixrBot scans, diagnoses, and resolves issues using AI</li>
-    <li>You receive clean, fixed code within 24–48 hours</li>
-  </ol>
-</section>
-
-<section>
-  <h2>Choose Your Fix</h2>
-  <div class="pricing">
-    <div class="price-box">
-      <img src="images/standard.png" alt="Standard Fix $97 Image">
-      <h3>Standard Fix</h3>
-      <p>Full AI scan and fix<br>Delivered in 48 hours</p>
-      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00">Order for $97</a>
+  <section>
+    <h2>Choose Your Fix</h2>
+    <div class="pricing">
+      <div class="price-box">
+        <img src="images/standard.png" alt="Standard Fix $97" />
+        <h3>Standard Fix</h3>
+        <p>Full AI scan and fix<br>Delivered in 48 hours</p>
+        <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00" class="buy">Order – $97</a>
+      </div>
+      <div class="price-box">
+        <img src="images/priority.png" alt="Priority Fix $147" />
+        <h3>Priority Fix</h3>
+        <p>Fix delivered in 24 hours<br>Priority turnaround</p>
+        <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01" class="buy">Order – $147</a>
+      </div>
     </div>
-    <div class="price-box">
-      <img src="images/priority.png" alt="Priority Fix $147 Image">
-      <h3>Priority Fix</h3>
-      <p>Fix delivered in 24 hours<br>Priority turnaround</p>
-      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01">Order for $147</a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <h2>Have Questions?</h2>
-  <form action="https://formspree.io/f/mwkgrlve" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Tell me about your project or ask a question..."></textarea>
-    <input type="submit" value="Send Message">
-  </form>
-</section>
-
-<section>
-  <h2>Terms of Use</h2>
-  <p>
-    By using FixrBot, you agree not to reverse engineer, copy, or replicate the service or its outputs.
-    Refunds are offered only if FixrBot fails to deliver results within the promised timeframe.
-  </p>
-</section>
-
-<footer>
-  &copy; 2025 FixrBot. All rights reserved. | Contact: fixrbot@gmail.com
-</footer>
-
+  <footer>
+    &copy; 2025 FixrBot • <a href="contact.html">Contact</a>
+  </footer>
 </body>
 </html>
