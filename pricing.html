@@ -7,34 +7,47 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Pricing</h1>
-    <p>Simple flat‑rate plans — no subscriptions, no surprises.</p>
-  </header>
-  <nav class="topnav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="pricing.html" class="active">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <section class="pricing">
-    <div class="price-box">
-      <img src="images/ChatGPT Image Jun 16, 2025 at 10_22_54 PM.png" alt="Standard Fix" />
-      <h3>Standard Fix</h3>
-      <p>48‑hour delivery • Full AI scan &amp; patch</p>
-      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00" class="buy">$97 – Order Now</a>
+  <header class="subhero">
+    <nav class="topnav">
+      <a href="index.html" class="logo">FixrBot</a>
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="subhero-content">
+      <h1>Simple, Transparent Pricing</h1>
+      <p class="subtitle">No subscriptions. No hidden fees. Just fixes.</p>
     </div>
-    <div class="price-box">
-      <img src="images/ChatGPT Image Jun 16, 2025 at 10_22_57 PM.png" alt="Priority Fix" />
+  </header>
+
+  <section class="container pricing-grid">
+    <div class="card">
+      <h3>Standard Fix</h3>
+      <p class="price">$97 CAD</p>
+      <ul>
+        <li>48‑hour turnaround</li>
+        <li>Full AI diagnostics & patch</li>
+        <li>Email support</li>
+      </ul>
+      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00" class="cta">Order Standard</a>
+    </div>
+
+    <div class="card priority">
       <h3>Priority Fix</h3>
-      <p>24‑hour delivery • Fast‑lane processing</p>
-      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01" class="buy">$147 – Order Now</a>
+      <p class="price">$147 CAD</p>
+      <ul>
+        <li><strong>24‑hour</strong> turnaround</li>
+        <li>Priority queue</li>
+        <li>Slack/Discord updates</li>
+      </ul>
+      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01" class="cta">Order Priority</a>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 FixrBot • <a href="contact.html">Contact</a>
+    © 2025 FixrBot | <a href="contact.html">Contact</a>
   </footer>
 </body>
 </html>

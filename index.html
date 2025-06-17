@@ -3,48 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FixrBot – Home</title>
+  <title>FixrBot • AI Flutter Debugging</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>FixrBot</h1>
-    <p>AI‑powered bug fixing for your Flutter codebase. Fast. Reliable. Hands‑off.</p>
+  <header class="hero">
+    <div class="container">
+      <nav class="topnav">
+        <a href="index.html" class="logo">FixrBot</a>
+        <div class="nav-links">
+          <a href="about.html">About</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <h1>AI‑Powered Fixes for <span>Flutter</span> Developers</h1>
+        <p class="subtitle">Stop chasing bugs and start shipping. Let FixrBot diagnose & patch your code in hours, not days.</p>
+        <a href="pricing.html" class="cta">See Pricing →</a>
+      </div>
+      <img src="images/hero_mock.png" alt="Code before and after" class="hero-img" />
+    </div>
   </header>
 
-  <nav class="topnav">
-    <a href="index.html" class="active">Home</a>
-    <a href="about.html">About</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <section>
-    <h2>What Is FixrBot?</h2>
-    <p>FixrBot is your AI assistant for Flutter debugging. Whether you're stuck on mysterious build errors or strange behavior in your UI, FixrBot gives you a senior developer's insight—without the hourly rates.</p>
+  <section class="section-alt">
+    <div class="container split">
+      <div>
+        <h2>Why FixrBot?</h2>
+        <p>We combine GPT‑4‑level reasoning with best‑practice linting to deliver production‑ready code. No plugins, no IDE setup, just results.</p>
+        <ul class="icon-list">
+          <li><span>⚡</span> 24‑hr priority option</li>
+          <li><span>✅</span> Works on any Flutter repo</li>
+          <li><span>🔒</span> Secure, private, NDA‑friendly</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/standard.png" class="shadow-img" alt="Standard service screenshot" />
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Choose Your Fixing Style</h2>
-    <p>FixrBot offers two flat-rate services tailored for speed and simplicity:</p>
-    <ul>
-      <li><strong>Standard Fix</strong> – Ideal for typical debugging needs with delivery in 48 hours.</li>
-      <li><strong>Priority Fix</strong> – Fast-track service for urgent fixes delivered in under 24 hours.</li>
-    </ul>
-    <p><a href="pricing.html" class="buy">View Full Pricing →</a></p>
+  <section class="section-dark">
+    <div class="container center">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step"><span>1</span><p>Upload your repo or share a GitHub link</p></div>
+        <div class="step"><span>2</span><p>FixrBot scans, diagnoses & patches issues</p></div>
+        <div class="step"><span>3</span><p>Receive a pull request or ZIP in 24‑48 hrs</p></div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>How It Works</h2>
-    <ol>
-      <li>Submit your GitHub link or project files</li>
-      <li>FixrBot scans, diagnoses, and resolves issues using AI</li>
-      <li>Receive clean, fixed code within 24–48 hours</li>
-    </ol>
+  <section class="section-alt center">
+    <a href="pricing.html" class="cta large">Choose Your Fix →</a>
   </section>
 
   <footer>
-    &copy; 2025 FixrBot • <a href="contact.html">Contact</a>
+    © 2025 FixrBot | <a href="contact.html">Contact</a>
   </footer>
 </body>
 </html>

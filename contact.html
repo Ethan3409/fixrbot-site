@@ -7,29 +7,32 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Contact FixrBot</h1>
-    <p>We respond within one business day.</p>
+  <header class="subhero">
+    <nav class="topnav">
+      <a href="index.html" class="logo">FixrBot</a>
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+    </nav>
+    <div class="subhero-content">
+      <h1>Get in Touch</h1>
+      <p class="subtitle">We respond within one business day.</p>
+    </div>
   </header>
-  <nav class="topnav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html" class="active">Contact</a>
-  </nav>
 
-  <section>
-    <h2>Get in Touch</h2>
-    <form action="https://formspree.io/f/mwkgrlve" method="POST">
+  <section class="container">
+    <form action="https://formspree.io/f/mwkgrlve" method="POST" class="contact-form">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="6" placeholder="Tell us about your project or ask a question..."></textarea>
-      <input type="submit" value="Send Message" />
+      <button type="submit" class="cta">Send Message</button>
     </form>
   </section>
 
   <footer>
-    &copy; 2025 FixrBot • fixrbot@gmail.com
+    © 2025 FixrBot | fixrbot@gmail.com
   </footer>
 </body>
 </html>
