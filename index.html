@@ -26,7 +26,7 @@
       color: #cbd5e1;
     }
     section {
-      max-width: 800px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
@@ -36,28 +36,35 @@
     }
     .pricing {
       display: flex;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
       margin-top: 20px;
+      justify-content: space-around;
     }
     .price-box {
       background-color: #1e293b;
       padding: 20px;
       border-radius: 8px;
       text-align: center;
-      width: 45%;
+      flex: 1;
+      min-width: 250px;
     }
     .price-box h3 {
       margin-bottom: 10px;
     }
-    .price-box p {
-      margin-bottom: 20px;
+    .price-box img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 8px;
     }
     .price-box a {
       background-color: #3b82f6;
       color: white;
-      padding: 10px 20px;
+      padding: 12px 20px;
       text-decoration: none;
+      display: inline-block;
       border-radius: 6px;
+      font-weight: bold;
     }
     form {
       margin-top: 20px;
@@ -96,7 +103,7 @@
   <ol>
     <li>You submit your project or GitHub link</li>
     <li>FixrBot scans, diagnoses, and auto-fixes issues using AI</li>
-    <li>You receive a pull request or fixed ZIP file</li>
+    <li>You receive a pull request or fixed ZIP file within 24–48 hours</li>
   </ol>
 </section>
 
@@ -104,24 +111,24 @@
   <h2>Pricing</h2>
   <div class="pricing">
     <div class="price-box">
-      <h3>Standard Fix</h3>
-      <p>Full AI scan + fix<br>Delivered in 48 hours</p>
-      <p><strong>$97 CAD</strong></p>
-      <a href="#">Pay with Stripe</a>
+      <h3>Standard Fix – $97 CAD</h3>
+      <img src="https://chat.openai.com/c/file-000000004b5861f788d99a9d12bc9f6f" alt="FixrBot Standard Fix Image">
+      <p>Full AI scan and fix<br>Delivered in 48 hours</p>
+      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00">Order Standard Fix</a>
     </div>
     <div class="price-box">
-      <h3>Priority Fix</h3>
-      <p>Fix delivered in 24 hours<br>Priority handling</p>
-      <p><strong>$147 CAD</strong></p>
-      <a href="#">Pay with Stripe</a>
+      <h3>Priority Fix – $147 CAD</h3>
+      <img src="https://chat.openai.com/c/file-00000000610461f793893b61fd050f07" alt="FixrBot Priority Fix Image">
+      <p>Priority delivery in 24 hours<br>Fast-lane processing</p>
+      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01">Order Priority Fix</a>
     </div>
   </div>
 </section>
 
 <section>
   <h2>Contact Me</h2>
-  <p>Have questions or want to submit a project manually? Reach out here:</p>
-  <form action="mailto:ejgfischer@gmail.com" method="POST" enctype="text/plain">
+  <p>Have questions? Want to send a project manually? Use this form:</p>
+  <form action="https://formspree.io/f/mwkgrlve" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" rows="5" placeholder="Describe your project or share your GitHub link"></textarea>
@@ -132,14 +139,12 @@
 <section>
   <h2>Terms of Use</h2>
   <p>
-    By using FixrBot, you agree not to reverse engineer, replicate, or resell this service or its results. 
-    All logic and automation used by FixrBot are proprietary. Your access is limited to the results provided, 
-    and FixrBot reserves the right to deny service to anyone suspected of misuse.
+    By using FixrBot, you agree not to reverse engineer, copy, or replicate the service, codebase, or methods used. You may not resell or redistribute FixrBot’s functionality without written permission. Delivery is based on project review and complexity. Refunds are available if FixrBot fails to deliver a fix within the stated timeframe.
   </p>
 </section>
 
 <footer>
-  &copy; 2025 FixrBot. All rights reserved.
+  &copy; 2025 FixrBot. All rights reserved. | Contact: fixrbot@gmail.com
 </footer>
 
 </body>
