@@ -4,104 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FixrBot – AI Code Fixing Service</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0e1117;
-      color: #e2e8f0;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #111827;
-      padding: 60px 20px 30px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.25em;
-      color: #9ca3af;
-    }
-    section {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h2 {
-      font-size: 1.75em;
-      margin-bottom: 10px;
-      border-bottom: 1px solid #2d3748;
-      padding-bottom: 8px;
-    }
-    .pricing {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: space-around;
-      margin-top: 30px;
-    }
-    .price-box {
-      background-color: #1f2937;
-      border: 1px solid #374151;
-      border-radius: 12px;
-      padding: 20px;
-      width: 100%;
-      max-width: 460px;
-      text-align: center;
-    }
-    .price-box img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    .price-box h3 {
-      font-size: 1.4em;
-      margin-bottom: 10px;
-    }
-    .price-box p {
-      color: #d1d5db;
-      font-size: 1em;
-      margin-bottom: 20px;
-    }
-    .price-box a {
-      background-color: #3b82f6;
-      color: white;
-      padding: 12px 20px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      display: inline-block;
-    }
-    form {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: column;
-    }
-    input, textarea {
-      margin-bottom: 10px;
-      padding: 12px;
-      border: none;
-      border-radius: 6px;
-      font-size: 1em;
-    }
-    input[type="submit"] {
-      background-color: #3b82f6;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    footer {
-      background-color: #111827;
-      padding: 30px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #9ca3af;
-      margin-top: 60px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
@@ -109,6 +12,13 @@
   <h1>FixrBot</h1>
   <p>AI-powered bug fixing for your Flutter codebase. Fast. Reliable. Hands-off.</p>
 </header>
+
+<nav class="topnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
 <section>
   <h2>How It Works</h2>
@@ -123,13 +33,13 @@
   <h2>Choose Your Fix</h2>
   <div class="pricing">
     <div class="price-box">
-      <img src="images/ChatGPT Image Jun 16, 2025 at 10_22_54 PM.png" alt="Standard Fix $97 Image">
+      <img src="images/standard.png" alt="Standard Fix $97 Image">
       <h3>Standard Fix</h3>
       <p>Full AI scan and fix<br>Delivered in 48 hours</p>
       <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00">Order for $97</a>
     </div>
     <div class="price-box">
-      <img src="images/ChatGPT Image Jun 16, 2025 at 10_22_57 PM.png" alt="Priority Fix $147 Image">
+      <img src="images/priority.png" alt="Priority Fix $147 Image">
       <h3>Priority Fix</h3>
       <p>Fix delivered in 24 hours<br>Priority turnaround</p>
       <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01">Order for $147</a>
