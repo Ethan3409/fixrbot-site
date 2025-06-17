@@ -6,65 +6,74 @@
   <title>FixrBot – AI Code Fixing Service</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #101820;
-      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e1117;
+      color: #e2e8f0;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #1f2937;
-      padding: 40px 20px;
+      background-color: #111827;
+      padding: 60px 20px 30px;
       text-align: center;
     }
     header h1 {
-      font-size: 2.5em;
+      font-size: 3em;
       margin-bottom: 10px;
     }
     header p {
-      font-size: 1.2em;
-      color: #cbd5e1;
+      font-size: 1.25em;
+      color: #9ca3af;
     }
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
     }
     h2 {
-      border-bottom: 1px solid #333;
+      font-size: 1.75em;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #2d3748;
       padding-bottom: 8px;
     }
     .pricing {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 20px;
+      gap: 30px;
       justify-content: space-around;
+      margin-top: 30px;
     }
     .price-box {
-      background-color: #1e293b;
+      background-color: #1f2937;
+      border: 1px solid #374151;
+      border-radius: 12px;
       padding: 20px;
-      border-radius: 8px;
+      width: 100%;
+      max-width: 460px;
       text-align: center;
-      flex: 1;
-      min-width: 250px;
-    }
-    .price-box h3 {
-      margin-bottom: 10px;
     }
     .price-box img {
-      max-width: 100%;
-      margin: 15px 0;
+      width: 100%;
       border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .price-box h3 {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+    .price-box p {
+      color: #d1d5db;
+      font-size: 1em;
+      margin-bottom: 20px;
     }
     .price-box a {
       background-color: #3b82f6;
       color: white;
       padding: 12px 20px;
       text-decoration: none;
-      display: inline-block;
       border-radius: 6px;
       font-weight: bold;
+      display: inline-block;
     }
     form {
       margin-top: 20px;
@@ -73,21 +82,24 @@
     }
     input, textarea {
       margin-bottom: 10px;
-      padding: 10px;
+      padding: 12px;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
+      font-size: 1em;
     }
     input[type="submit"] {
       background-color: #3b82f6;
       color: white;
+      font-weight: bold;
       cursor: pointer;
     }
     footer {
-      text-align: center;
+      background-color: #111827;
       padding: 30px;
-      background-color: #1a1a2e;
+      text-align: center;
       font-size: 0.9em;
-      color: #94a3b8;
+      color: #9ca3af;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -95,43 +107,42 @@
 
 <header>
   <h1>FixrBot</h1>
-  <p>Your AI-powered developer assistant that fixes your Flutter code. Send. Fix. Done.</p>
+  <p>AI-powered bug fixing for your Flutter codebase. Fast. Reliable. Hands-off.</p>
 </header>
 
 <section>
   <h2>How It Works</h2>
   <ol>
-    <li>You submit your project or GitHub link</li>
-    <li>FixrBot scans, diagnoses, and auto-fixes issues using AI</li>
-    <li>You receive a pull request or fixed ZIP file within 24–48 hours</li>
+    <li>You submit your GitHub link or project files</li>
+    <li>FixrBot scans, diagnoses, and resolves issues using AI</li>
+    <li>You receive clean, fixed code within 24–48 hours</li>
   </ol>
 </section>
 
 <section>
-  <h2>Pricing</h2>
+  <h2>Choose Your Fix</h2>
   <div class="pricing">
     <div class="price-box">
-      <h3>Standard Fix – $97 CAD</h3>
-      <img src="https://chat.openai.com/c/file-000000004b5861f788d99a9d12bc9f6f" alt="FixrBot Standard Fix Image">
+      <img src="https://chat.openai.com/c/file-BSkdftVjgVzSMMACgxAbrx" alt="Standard Fix $97 Image">
+      <h3>Standard Fix</h3>
       <p>Full AI scan and fix<br>Delivered in 48 hours</p>
-      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00">Order Standard Fix</a>
+      <a href="https://buy.stripe.com/14AfZidUt2Im3IBfxP3Je00">Order for $97</a>
     </div>
     <div class="price-box">
-      <h3>Priority Fix – $147 CAD</h3>
-      <img src="https://chat.openai.com/c/file-00000000610461f793893b61fd050f07" alt="FixrBot Priority Fix Image">
-      <p>Priority delivery in 24 hours<br>Fast-lane processing</p>
-      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01">Order Priority Fix</a>
+      <img src="https://chat.openai.com/c/file-DUzRgFTeqjQC7WrAXTXRLt" alt="Priority Fix $147 Image">
+      <h3>Priority Fix</h3>
+      <p>Fix delivered in 24 hours<br>Priority turnaround</p>
+      <a href="https://buy.stripe.com/6oUfZi4jT1Ei5QJ0CV3Je01">Order for $147</a>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Contact Me</h2>
-  <p>Have questions? Want to send a project manually? Use this form:</p>
+  <h2>Have Questions?</h2>
   <form action="https://formspree.io/f/mwkgrlve" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Describe your project or share your GitHub link"></textarea>
+    <textarea name="message" rows="5" placeholder="Tell me about your project or ask a question..."></textarea>
     <input type="submit" value="Send Message">
   </form>
 </section>
@@ -139,7 +150,8 @@
 <section>
   <h2>Terms of Use</h2>
   <p>
-    By using FixrBot, you agree not to reverse engineer, copy, or replicate the service, codebase, or methods used. You may not resell or redistribute FixrBot’s functionality without written permission. Delivery is based on project review and complexity. Refunds are available if FixrBot fails to deliver a fix within the stated timeframe.
+    By using FixrBot, you agree not to reverse engineer, copy, or replicate the service or its outputs.
+    Refunds are offered only if FixrBot fails to deliver results within the promised timeframe.
   </p>
 </section>
 
